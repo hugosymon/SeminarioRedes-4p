@@ -1,0 +1,5 @@
+zone "teste.local" {
+    type master;
+    file "/etc/bind/db.teste.local";
+};
+
