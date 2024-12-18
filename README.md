@@ -8,12 +8,8 @@ Repositório do seminário final da matéria de Redes 4º P
 2. [Topologia da Rede](#topologia-da-rede)
 3. [Segmentação de Sub-redes](#segmentação-de-sub-redes)
 4. [Requisitos dos Serviços](#requisitos-dos-serviços)
-5. [Implantação com Vagrant](#implantação-com-vagrant)
-6. [Configuração dos Serviços](#configuração-dos-serviços)
-7. [Testes Realizados](#testes-realizados)
-8. [Resultados](#resultados)
-9. [Anexos e Scripts](#anexos-e-scripts)
-
+5. [Configuração dos Serviços](#configuração-dos-serviços)
+6. [Testes Realizados](#testes-realizados)
 
 
 ## Descrição do Projeto
@@ -91,10 +87,9 @@ Diagrama:
 
 ** VagrantFile
 
-
 ![{D1B714FC-2919-488B-B6B6-B6013804547F}](https://github.com/user-attachments/assets/00faac12-2586-4785-b327-3b420ee1baf7)
 
-##Configuração dos Serviços
+## Configuração dos Serviços
 
 **DHCP**
 
@@ -227,6 +222,29 @@ Adicione:
 3. Acesse a VM criada:
 
 ![{59E95B3D-0568-47FF-8B9D-171CC6115670}](https://github.com/user-attachments/assets/513541c4-d7ae-4c76-a81d-5ce694381b0f)
+
+## Testes Realizados
+**DHCP**
+![WhatsApp Image 2024-12-18 at 18 21 47_598f2cb1](https://github.com/user-attachments/assets/8f311a17-3438-4486-b0db-ba10b854c91c)
+
+![WhatsApp Image 2024-12-18 at 18 21 47_64ce20be](https://github.com/user-attachments/assets/80175bc5-db51-458a-883f-343989508b05)
+
+**BIND69**
+
+![WhatsApp Image 2024-12-18 at 18 21 47_0c3ebfc9](https://github.com/user-attachments/assets/eb7b2688-8a25-429f-b864-26a1a653882a)
+
+**APACHE**
+
+![WhatsApp Image 2024-12-18 at 18 21 47_5ffc313b](https://github.com/user-attachments/assets/5589de50-eaf4-4226-91b7-1590c077ecb0)
+
+**FTP**
+
+![WhatsApp Image 2024-12-18 at 18 21 47_60fd7dfb](https://github.com/user-attachments/assets/f91982f7-6446-4306-b9e2-f54f66a385e9)
+
+
+**Computador HOST acessando o arquivo padrão do Apache que se encontra dentro da Virtual Box por meio de IP**
+
+![WhatsApp Image 2024-12-18 at 18 22 00_72212b0e](https://github.com/user-attachments/assets/1a92a4bd-8ae6-46c5-94ab-788fc655cf86)
 
 
 
